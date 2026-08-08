@@ -23,6 +23,7 @@ function Home() {
                         height="515"
                         src={heroVideo}
                         controls
+                        loop
                         >
                     </video>
                 </section>
