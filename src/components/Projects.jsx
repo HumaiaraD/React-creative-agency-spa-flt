@@ -20,7 +20,7 @@ function Projects( {allProjects}){
             </div>
             <div>
                {filteredProjects.map((work) => (
-                <Link key={work.id} to={`/projects/${work.id}`}>                  
+                <Link target="_blank" key={work.id} to={`/projects/${work.id}`}>                  
                     <h3 className="text-3xl font-light">[ {work.title} ]</h3>
                 </Link>
                 ))}
